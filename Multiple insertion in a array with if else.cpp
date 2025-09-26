@@ -56,8 +56,9 @@ using namespace std;
      if(pos<1||pos>n+1)
      {
     cout<<"Invalid";
-     } else{
-int value;
+     } else
+     {
+         int value;
          cout<<"Enter a value:";
          cin>>value;
          int index=pos-1;
@@ -75,3 +76,4 @@ int value;
 
 
  }
+
