@@ -18,7 +18,7 @@ int main()
         a[i+1]=a[i];
     }
     a[0]=beginningValue;
-    n++;
+    
 
     int pos;
     cout<<"Enter position:";
@@ -37,7 +37,7 @@ int main()
         a[i+1]=a[i];
     }
     a[pos-1]=value;
-    n++;
+    
     int endingValue;
     cout<<"Enter a ending value:";
     cin>>endingValue;
@@ -49,3 +49,4 @@ int main()
     }
 
 }
+
